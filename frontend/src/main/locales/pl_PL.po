@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+
+#: file:/home/przemyslaw-dubaniewicz/Personal/scala-scrabble/frontend/src/main/scala/game/ui/AcceptGameModal.scala:45
+#: src/main/scala/game/ui/AcceptGameModal.scala:45
+msgid "Game start?"
+msgstr "Rozpocząć grę?"
+
+#: file:/home/przemyslaw-dubaniewicz/Personal/scala-scrabble/frontend/src/main/scala/game/ui/AcceptGameModal.scala:62
+#: src/main/scala/game/ui/AcceptGameModal.scala:62
+msgid "Waiting for other players to accept."
+msgstr "Oczekiwanie na zaakceptowanie gry."
+
+#: file:/home/przemyslaw-dubaniewicz/Personal/scala-scrabble/frontend/src/main/scala/game/ui/GameSettings.scala:27
+#: src/main/scala/game/ui/GameSettings.scala:24
+msgid "Game language"
+msgstr "Język gry"
+
+#: file:/home/przemyslaw-dubaniewicz/Personal/scala-scrabble/frontend/src/main/scala/game/ui/GameSettings.scala:44
+#: src/main/scala/game/ui/GameSettings.scala:41
+msgid "Game duration"
+msgstr "Długość gry"
+
+#  !Generated: 2021-01-17 22:57:15
+#: src/main/scala/App.scala:68
+msgid "User settings"
+msgstr "Ustawienia użytkownika"
+
+#  !Generated: 2020-12-11 00:41:45
+#: src/main/scala/App.scala:76
+msgid "Create new game"
+msgstr "Stwórz nową grę"
+
+#: src/main/scala/App.scala:82
+msgid "Join game"
+msgstr "Dołącz do gry"
+
+#: src/main/scala/App.scala:122
+msgid "Hello there fellow scrabble aficionado!"
+msgstr "Witaj mordo, miłośniku scrabble!"
+
+#: src/main/scala/App.scala:123
+msgid "What's your name?"
+msgstr "Jak się nazwiesz?"
+
+#: src/main/scala/App.scala:129
+msgid "Your name"
+msgstr "Twoja ksywka"
+
+#: src/main/scala/ScrabbleGame.scala:146 src/main/scala/SklableGame.scala:146
+msgid "CHAT"
+msgstr "CZAT"
+
+#: src/main/scala/ScrabbleGame.scala:147 src/main/scala/SklableGame.scala:147
+msgid "GAME COURSE"
+msgstr "PRZEBIEG GRY"
+
+#: src/main/scala/ScrabbleGame.scala:148 src/main/scala/SklableGame.scala:148
+msgid "PLAYERS"
+msgstr "GRACZE"
+
+#: src/main/scala/ScrabbleGame.scala:149 src/main/scala/SklableGame.scala:149
+msgid "SETTINGS"
+msgstr "USTAWIENIA"
+
+#: src/main/scala/ScrabbleGame.scala:191 src/main/scala/SklableGame.scala:191
+msgid "Room connection was successful"
+msgstr "Połączenie do pokoju udane"
+
+#: src/main/scala/ScrabbleGame.scala:203 src/main/scala/SklableGame.scala:203
+msgid "%(sender) joined!"
+msgstr "Dołączył %(sender)!"
+
+#: src/main/scala/ScrabbleGame.scala:204 src/main/scala/SklableGame.scala:204
+msgid "%(member) left!"
+msgstr "%(member) opuścił pokój!"
+
+#: src/main/scala/ScrabbleGame.scala:210 src/main/scala/SklableGame.scala:210
+msgid "You became the game moderator."
+msgstr "Zostałeś moderatorem pokoju."
+
+#: src/main/scala/ScrabbleGame.scala:215 src/main/scala/SklableGame.scala:215
+msgid "Game time set to %(n) minute."
+msgid_plural "Game time set to %(n) minutes."
+msgstr[0] "Czas gry ustawiono na %(n) minutę."
+msgstr[1] "Czas gry ustawiono na %(n) minuty."
+msgstr[2] "Czas gry ustawiono na %(n) minut."
+
+#: src/main/scala/ScrabbleGame.scala:231 src/main/scala/SklableGame.scala:231
+msgid "Player %(name) passed."
+msgstr "Gracz %(name) spasował."
+
+#: src/main/scala/ScrabbleGame.scala:232 src/main/scala/SklableGame.scala:232
+msgid "Player %(name) made an invalid move."
+msgstr "Gracz %(name) wykonał nieprawidłowy ruch."
+
+#: src/main/scala/ScrabbleGame.scala:235 src/main/scala/SklableGame.scala:235
+msgid "Player %(name) exchanged %(n) tile."
+msgid_plural "Player %(name) exchanged %(n) tiles."
+msgstr[0] "Gracz %(name) wymienił %(n) płytkę."
+msgstr[1] "Gracz %(name) wymienił %(n) płytki."
+msgstr[2] "Gracz %(name) wymienił %(n) płytek."
+
+#: src/main/scala/ScrabbleGame.scala:251 src/main/scala/SklableGame.scala:251
+msgid "Player %(name) timed out."
+msgstr "Koniec czasu dla gracza %(name)."
+
+#: src/main/scala/ScrabbleGame.scala:261 src/main/scala/SklableGame.scala:261
+msgid "Game started."
+msgstr "Gra rozpoczęta."
+
+#: src/main/scala/ScrabbleGame.scala:263 src/main/scala/SklableGame.scala:263
+msgid "Waiting for others to accept..."
+msgstr "Oczekiwanie na zaakceptowanie..."
+
+#: src/main/scala/ScrabbleGame.scala:273 src/main/scala/SklableGame.scala:273
+msgid "Game ended. Player %(name) won!"
+msgstr "Gra zakończona. Gracz %(name) wygrał!"
+
+#: src/main/scala/ScrabbleGame.scala:277 src/main/scala/SklableGame.scala:277
+msgid "Game ended. Draw."
+msgstr "Gra zakończona. Remis."
+
+#: src/main/scala/ScrabbleGame.scala:420 src/main/scala/SklableGame.scala:420
+msgid "Join Game"
+msgstr "Dołącz do gry"
+
+#: src/main/scala/ScrabbleGame.scala:425 src/main/scala/SklableGame.scala:425
+msgid "Leave Game"
+msgstr "Opuść grę"
+
+#: src/main/scala/ScrabbleGame.scala:430 src/main/scala/SklableGame.scala:430
+msgid "New Game"
+msgstr "Nowa gra"
+
+#: src/main/scala/ScrabbleGame.scala:453 src/main/scala/SklableGame.scala:453
+msgid "exchange"
+msgstr "wymiana"
+
+#: src/main/scala/ScrabbleGame.scala:458 src/main/scala/SklableGame.scala:458
+msgid "pass"
+msgstr "pas"
+
+#: src/main/scala/ScrabbleGame.scala:511 src/main/scala/SklableGame.scala:511
+msgid "cancel"
+msgstr "anuluj"
+
+#: src/main/scala/game/Board.scala:170
+msgid "TRIPLE WORD SCORE"
+msgstr "POTRÓJNA PREMIA SŁOWNA"
+
+#: src/main/scala/game/Board.scala:179
+msgid "DOUBLE WORD SCORE"
+msgstr "PODWÓJNA PREMIA SŁOWNA"
+
+#: src/main/scala/game/Board.scala:185
+msgid "TRIPLE LETTER SCORE"
+msgstr "POTRÓJNA PREMIA LITEROWA"
+
+#: src/main/scala/game/Board.scala:191
+msgid "DOUBLE LETTER SCORE"
+msgstr "PODWÓJNA PREMIA LITEROWA"

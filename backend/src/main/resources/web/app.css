@@ -1,0 +1,367 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: Arial, Helvetica, sans-serif;
+  vertical-align: baseline;
+}
+
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+select {
+  background: white;
+  font-size: small;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+
+table, tr {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+.github-badge {
+  position: absolute;
+}
+
+.game {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.board {
+  -moz-user-select: none !important;
+  -khtml-user-select: none !important;
+  -webkit-user-select: none !important;
+  user-select: none !important;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-right: 15px;
+  width: calc(15 * 50px);
+  display: grid;
+  grid-template-columns: repeat(15, 50px);
+  grid-auto-columns: minmax(50px, 50px);
+  grid-auto-rows: minmax(50px, 50px);
+  border-top: dashed 1px #d0d0d0;
+  border-right: dashed 1px #d0d0d0;
+}
+
+.board>.boardSpace {
+  border-left: dashed 1px #d0d0d0;
+  border-bottom: dashed 1px #d0d0d0;
+}
+
+.boardSpaceType {
+  font-size: 8px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.boardSpaceDoubleWordScore {
+  background: #F9F
+}
+
+.boardSpaceTripleWordScore {
+  background: #F00;
+  color: white;
+}
+
+.boardSpaceDoubleLetterScore {
+  background: #6CF;
+}
+
+.boardSpaceTripleLetterScore {
+  background: #03F;
+  color: white;
+}
+
+.rack {
+  margin: auto;
+  width: calc(7*50px);
+  display: grid;
+  grid-gap: 2px;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(7, 50px);
+}
+
+.rack>.rackSpace {
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border: dotted 1px;
+}
+
+.tile {
+  position: relative;
+  z-index: auto;
+  background: #ffe34b;
+  height: 47px;
+  width: 47px;
+  border: solid 1px;
+  border-radius: 3px;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+.blinkingTile {
+  animation: blink 1.5s cubic-bezier(0.57, 0, 0.99, 0.42) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.tileCharacter {
+  font-size: 32px;
+  margin: auto;
+  width: min-content;
+  height: min-content;
+  margin-top: 4px;
+  font-family: "News Gothic Standard", "Franklin Gothic", sans-serif;
+}
+
+.tileValue {
+  position: absolute;
+  bottom: 2px;
+  right: 2px;
+  font-size: 14px;
+}
+
+.tile.selected {
+  border: 2px solid red;
+  bottom: 10px;
+}
+
+.arrow:hover {
+  border-color: #93278f;
+}
+
+.arrow-left {
+  left: -10px;
+  transform: rotate(225deg);
+}
+
+.arrow-right {
+  right: -10px;
+  transform: rotate(45deg);
+}
+
+.arrow {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 12px;
+  z-index: 15;
+  border-top: 6px solid #c82424;
+  border-top-color: rgb(200, 36, 36);
+  border-top-color: rgba(47, 47, 47, 0.64);
+  border-right: 6px solid gray;
+  border-right-color: gray;
+  border-right-color: rgba(15, 15, 15, 0.47);
+  cursor: pointer;
+  transition: border-color 0.3s ease-out;
+}
+
+.gameControls>button {
+  margin: 2px;
+  font-size: small;
+}
+
+.gameControls>select {
+  margin: 2px;
+  font-size: small;
+}
+
+.gameUpdates {
+  height: 200px;
+  overflow: auto;
+}
+
+.game-info-ts {
+  color: gray;
+}
+
+.controls {
+  max-width: 334px;
+  width: 334px;
+  font-size: small;
+}
+
+.game-controls-window {
+  padding: 2px;
+  min-height: 32px;
+}
+
+.players-window {
+  min-height: 80px;
+}
+
+.game-updates {
+  scroll-behavior: smooth;
+  height: 205px;
+  max-height: 205px;
+  overflow-y: scroll;
+  width: 338px;
+  max-width: 338px;
+  border: 1px lightgray solid;
+  padding: 5px;
+  scrollbar-width: thin;
+  background: white;
+}
+
+.game-chat-input>input {
+  width: 338px;
+  margin-top: 8px;
+}
+
+.game-progress {
+  scroll-behavior: smooth;
+  height: 240px;
+  max-height: 240px;
+  overflow-y: scroll;
+  width: 338px;
+  max-width: 338px;
+  border: 1px lightgray solid;
+  padding: 5px;
+  scrollbar-width: thin;
+  background: white;
+}
+
+.player-window-player {
+  display: flex;
+}
+
+.player-marker {
+  flex: auto;
+  min-width: 10px;
+  max-width: 10px;
+}
+
+.player-window-name {
+  flex: 1;
+}
+
+.player-window-score {
+  flex: auto;
+  max-width: 30px;
+  width: 30px;
+}
+
+.game-tabs {
+  margin-top: 25px;
+}
+
+.tab-hidden {
+  display: none;
+}
+
+.tab-link {
+  display: inline-block;
+  margin-left: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.tab-link.tab-link-active {
+  background: #AEE1FB;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.tab-frame {
+  background: #AEE1FB;
+  width: 350px;
+  height: 254px;
+  padding: 5px;
+  border: 5px #AEE1FB;
+  border-radius: 5px;
+}
+
+.tab-content {
+  height: 250px;
+  width: 346px;
+}
+
+.top-bar {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.top-bar-inner {
+  min-width: 1150px;
+  max-width: 1150px;
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.top-bar-right {
+  display: flex;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content-column {
+  min-width: 1150px;
+  max-width: 1150px;
+  width: 1150px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.boardAndRack {
+  position: relative;
+}
+
+.overlay-hidden {
+  display: none;
+}
+
+.overlay-msg {
+  position: absolute;
+  left: 270px;
+  top: 300px;
+  min-width: 200px;
+  border-radius: 2px;
+  background: red;
+  text-align: center;
+  padding: 5px;
+  border: 4px pink solid;
+  min-height: 100px;
+}

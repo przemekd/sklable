@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#  !Generated: 2021-01-19 16:38:40
+#: src/main/scala/App.scala:67
+#, fuzzy
+msgid "User settings"
+msgstr "Configuración de usuario"
+
+#: src/main/scala/App.scala:75
+#, fuzzy
+msgid "Create new game"
+msgstr "Crea un juego nuevo"
+
+#: src/main/scala/App.scala:81
+#, fuzzy
+msgid "Join game"
+msgstr "Unirse al juego"
+
+#: src/main/scala/App.scala:121
+#, fuzzy
+msgid "Hello there fellow scrabble aficionado!"
+msgstr "¡Hola, amigo aficionado al scrabble!"
+
+#: src/main/scala/App.scala:122
+#, fuzzy
+msgid "What's your name?"
+msgstr "¿Cómo te llamas?"
+
+#: src/main/scala/App.scala:128
+#, fuzzy
+msgid "Your name"
+msgstr "Tu nombre"
+
+#: src/main/scala/ScrabbleGame.scala:130
+#, fuzzy
+msgid "CHAT"
+msgstr "CHAT"
+
+#: src/main/scala/ScrabbleGame.scala:131
+#, fuzzy
+msgid "SETTINGS"
+msgstr "CONFIGURACIÓN"
+
+#: src/main/scala/ScrabbleGame.scala:173
+#, fuzzy
+msgid "Room connection was successful"
+msgstr "La conexión de la habitación se realizó correctamente."
+
+#: src/main/scala/ScrabbleGame.scala:185
+#, fuzzy
+msgid "%(sender) joined!"
+msgstr "%(sender) se unió!"
+
+#: src/main/scala/ScrabbleGame.scala:186
+#, fuzzy
+msgid "%(member) left!"
+msgstr "%(member) salió!"
+
+#: src/main/scala/ScrabbleGame.scala:192
+#, fuzzy
+msgid "You became the game moderator."
+msgstr "Te convertiste en el moderador del juego."
+
+#: src/main/scala/ScrabbleGame.scala:197
+#, fuzzy
+msgid "Game time set to %(n) minute."
+msgid_plural "Game time set to %(n) minutes."
+msgstr[0] "Duración del juego establecida en un minuto."
+msgstr[1] "Duración del juego establecida en %(n) minutos."
+
+#: src/main/scala/ScrabbleGame.scala:213
+#, fuzzy
+msgid "Player %(name) passed."
+msgstr "El jugador %(name) pasó."
+
+#: src/main/scala/ScrabbleGame.scala:214
+#, fuzzy
+msgid "Player %(name) made an invalid move."
+msgstr "El jugador %(name) hizo un movimiento inválido."
+
+#: src/main/scala/ScrabbleGame.scala:217
+#, fuzzy
+msgid "Player %(name) exchanged %(n) tile."
+msgid_plural "Player %(name) exchanged %(n) tiles."
+msgstr[0] "Jugador %(name) intercambiado una ficha."
+msgstr[1] "Jugador %(name) intercambiado %(n) fichas."
+
+#: src/main/scala/ScrabbleGame.scala:232
+#, fuzzy
+msgid "Player %(name) timed out."
+msgstr "Se agotó el tiempo del jugador %(name)."
+
+#: src/main/scala/ScrabbleGame.scala:242
+#, fuzzy
+msgid "Game started."
+msgstr "Juego iniciado."
+
+#: src/main/scala/ScrabbleGame.scala:250
+#, fuzzy
+msgid "Game ended. Player %(name) won!"
+msgstr "El juego terminó. Jugador %(name) ganó!"
+
+#: src/main/scala/ScrabbleGame.scala:254
+#, fuzzy
+msgid "Game ended. Draw."
+msgstr "El juego terminó. Empate."
+
+#: src/main/scala/ScrabbleGame.scala:390
+#, fuzzy
+msgid "Join Game"
+msgstr "Unirse al Juego"
+
+#: src/main/scala/ScrabbleGame.scala:395
+#, fuzzy
+msgid "Leave Game"
+msgstr "Salir de juego"
+
+#: src/main/scala/ScrabbleGame.scala:400
+#, fuzzy
+msgid "New Game"
+msgstr "Nuevo juego"
+
+#: src/main/scala/game/Board.scala:139
+msgid "TRIPLE WORD SCORE"
+msgstr "TRIPLE TANTO DE PALABRA"
+
+#: src/main/scala/game/Board.scala:148
+msgid "DOUBLE WORD SCORE"
+msgstr "DOBLE TANTO DE PALABRA"
+
+#: src/main/scala/game/Board.scala:154
+msgid "TRIPLE LETTER SCORE"
+msgstr "TRIPLE TANTO DE LETRA"
+
+#: src/main/scala/game/Board.scala:160
+msgid "DOUBLE LETTER SCORE"
+msgstr "DOBLE TANTO DE LETRA"
+
+#: src/main/scala/game/ui/GameSettings.scala:24
+#, fuzzy
+msgid "Game language"
+msgstr "Lenguaje del juego"
+
+#: src/main/scala/game/ui/GameSettings.scala:41
+#, fuzzy
+msgid "Game duration"
+msgstr "Duración del juego"

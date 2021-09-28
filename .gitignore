@@ -1,0 +1,37 @@
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+project/project/
+.history
+.cache
+.lib/
+
+# IntelliJ IDEA
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.bsp/
+.vscode/
+project/metals.sbt
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+
+### Scala ###
+*.class
+*.log
+.bloop
+.metals
